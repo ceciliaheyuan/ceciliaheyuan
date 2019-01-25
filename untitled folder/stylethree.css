@@ -1,0 +1,355 @@
+h1 {
+    position: absolute;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 20px;
+    left:6.92%; 
+    top:11.2%;
+}
+
+.q1 {
+  position: absolute;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 12px;
+    color: black;
+    letter-spacing: 2px;
+    top: 35%;
+    left: 6.92%;
+}
+
+.minkname{
+    position:absolute;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 10px;
+    color: black;
+    letter-spacing: 2px;
+    top: 50%;
+    left: 6.92%;
+}
+
+.foxname {
+    position:absolute;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 10px;
+    color: black;
+    letter-spacing: 2px;
+    top: 56%;
+    left: 6.92%;
+}
+
+.sablename {
+    position:absolute;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 10px;
+    color: black;
+    letter-spacing: 2px;
+    top: 60%;
+    left: 6.92%;
+}
+
+.sealname {
+    position:absolute;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 10px;
+    color: black;
+    letter-spacing: 2px;
+    top: 64%;
+    left: 6.92%;
+}
+
+.raccoon {
+    position:absolute;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 10px;
+    color: black;
+    letter-spacing: 2px;
+    top: 68%;
+    left: 6.92%;
+}
+
+.beaver {
+    position:absolute;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 10px;
+    color: black;
+    letter-spacing: 2px;
+    top: 72%;
+    left: 6.92%;
+}
+
+.videoone {
+    float: right;
+    margin-top: 8%;
+}
+
+.videoone {
+-webkit-animation-delay: -10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 10s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -10s;
+    animation: appear 10s forwards;   
+}
+
+@-webkit-keyframes appearla {
+    0% {opacity: 0.0; visibility: hidden}
+    80% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appearla {
+   0% {opacity: 0.0; visibility: hidden}
+     80% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+.videotwo {
+    float: right;
+    margin-top: 8%;
+}
+
+.videotwo {
+-webkit-animation-delay: -10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 10s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -10s;
+    animation: appear 10s forwards;   
+}
+
+.videothree {
+    float: right;
+    margin-top: 8%;
+}
+
+.videothree {
+-webkit-animation-delay: -10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 10s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -10s;
+    animation: appear 10s forwards;   
+}
+
+@-webkit-keyframes appearla {
+    0% {opacity: 0.0; visibility: hidden}
+    80% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appearla {
+   0% {opacity: 0.0; visibility: hidden}
+     80% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+.videofour {
+    float: right;
+    margin-top: -7%;
+}
+
+.videofour {
+-webkit-animation-delay: -10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 10s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -10s;
+    animation: appear 10s forwards;   
+}
+
+@-webkit-keyframes appearla {
+    0% {opacity: 0.0; visibility: hidden}
+    80% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appearla {
+   0% {opacity: 0.0; visibility: hidden}
+     80% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+.videofive {
+    float: right;
+    margin-top: 7%;
+}
+
+.videofive {
+-webkit-animation-delay: -10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 10s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -10s;
+    animation: appear 10s forwards;   
+}
+
+@-webkit-keyframes appearla {
+    0% {opacity: 0.0; visibility: hidden}
+    80% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appearla {
+   0% {opacity: 0.0; visibility: hidden}
+     80% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+.videosix {
+    float: right;
+    margin-top: 7%;
+}
+
+.videosix {
+-webkit-animation-delay: -10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 10s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -10s;
+    animation: appear 10s forwards;   
+}
+
+@-webkit-keyframes appearla {
+    0% {opacity: 0.0; visibility: hidden}
+    80% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appearla {
+   0% {opacity: 0.0; visibility: hidden}
+     80% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+.continue {
+    position: relative;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 12px;
+    color: black;
+    letter-spacing: 2px;
+    margin-top:80%;
+    margin-left: 90%;
+    }
+a:hover {
+    color: red
+}
+
+a:link {
+  text-decoration: none;
+    color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+}
+
+.brutalone {
+  position: absolute;
+  bottom: -400px;
+  left: -55px;
+}
+
+.brutaltwo {
+  position: absolute;
+  bottom: -500px;
+  left: 800px;
+}
+
+.brutalthree {
+    position: absolute;
+  bottom: -500px;
+  left: 0px;
+}
+
+.brutalfour {
+   position: absolute;
+  bottom: -600px;
+  right: 0px; 
+}
+
+.brutalfive {
+    position: absolute;
+  bottom: -600px;
+  right: 70px;
+}
+
+.brutalsix {
+    position: absolute;
+  bottom: -330px;
+  left: 70px;
+}
+
+.brutalseven {
+    position: absolute;
+  bottom: -400px;
+  right: 70px;
+}
+
+.brutaleight {
+    position: absolute;
+  bottom: -600px;
+  left: 70px;
+}
+
+.brutalnine {
+    position: absolute;
+  bottom: -600px;
+  left: 0px;
+}
+
+.brutalten {
+    position: absolute;
+  bottom: -400px;
+  right: 0px;
+}
+
+.brutaleleven {
+    position: absolute;
+  bottom: -450px;
+  left: 0px;
+}
+
+.brutaltwelve {
+    position: absolute;
+  bottom: -500px;
+  right: 70px;
+}
+
+.scroll-left {
+ height: 200px;	
+ overflow: hidden;
+ color: red;
+    font-size: 50px;
+}
+
+.scroll-left p {
+ position: absolute;
+ width: 200%;
+ height: 100%;
+ margin-top: 40%;
+ line-height: 0px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 15s linear infinite;
+ -webkit-animation: scroll-left 15s linear infinite;
+ animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Safari 4.0 - 8.0 */
+ -webkit-transform: translateX(100%); /* Safari 4.0 - 8.0 */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+ 
+    

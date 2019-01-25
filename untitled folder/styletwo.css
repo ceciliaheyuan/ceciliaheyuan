@@ -1,0 +1,317 @@
+div.relative {
+        position: relative;
+        margin-left:18%;
+    }
+
+div.relative {
+  position: relative;
+  -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: -1s; /* Safari 4.0 - 8.0 */
+  animation: mymove 3s;
+  animation-delay: -1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes mymove {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 20px;
+    top: 35%;
+    left: 45%;
+    line-height: 60px;
+}
+
+h1
+{
+animation:myfirst 4s forwards;
+animation-delay: 1.5s;
+-webkit-animation:myfirst 4s forwards; /* Safari and Chrome */
+-webkit-animation-delay:1.5s; /* Safari and Chrome */
+}
+
+@keyframes myfirst
+{
+0%   {left:45%; top:35%;}
+50% {left:7%; top:35%;}
+100% {left:7%; top:10%}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {left:45%; top:35%;}
+50% {left:7%; top:35%;}
+100% {left:7%; top:10%}
+}
+
+
+div.relative {
+-webkit-animation: disappear 2s forwards; /* Safari 4.0 - 8.0 */
+-webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+    animation: disappear 2s forwards;
+    animation-delay: 5s;
+}
+
+@-webkit-keyframes disappear {
+    0% {opacity: 1.0; visibility: visible}
+    100% {opacity: 0.0; visibility: hidden}
+}
+
+@keyframes disappear {
+   0% {opacity: 1.0; visibility: visible}
+    100% {opacity: 0.0; visibility: hidden}
+}
+
+.q1 {
+  position: absolute;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 12px;
+    color: black;
+    letter-spacing: 2px;
+    top: 35%;
+    left: 7%;
+}
+
+.q1 {
+-webkit-animation-delay: -5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appear 8s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -5s;
+    animation: appear 8s forwards;   
+}
+
+@-webkit-keyframes appear {
+    0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.0; visibility: hidden}
+    90% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appear {
+   0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.0; visibility: hidden}
+    90% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+.mink {
+    position:absolute;
+    top:40%;
+    margin-left: 30%;
+}
+
+.mink{
+-webkit-animation-delay: -6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 9s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -6s;
+    animation: appear 9s forwards;   
+}
+
+@-webkit-keyframes appearla {
+    0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appearla {
+   0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+.fox {
+    position:absolute;
+    top:40%;
+    margin-left: 30%;
+    float: right;
+}
+
+
+.fox{
+-webkit-animation-delay: -6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 9s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -6s;
+    animation: appear 9s forwards;   
+}
+
+@-webkit-keyframes appearla {
+    0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appearla {
+   0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+.sable {
+    position:absolute;
+    top:40%;
+    margin-left: 30%;
+    float: right;
+}
+
+
+.sable{
+-webkit-animation-delay: -6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 9s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -6s;
+    animation: appear 9s forwards;   
+}
+
+@-webkit-keyframes appearla {
+    0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appearla {
+   0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+.seal {
+    position:absolute;
+    top:40%;
+    margin-left: 30%;
+    float: right;
+}
+
+
+.seal{
+-webkit-animation-delay: -6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 9s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -6s;
+    animation: appear 9s forwards;   
+}
+
+@-webkit-keyframes appearla {
+    0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appearla {
+   0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+.raccoon {
+    position:absolute;
+    top:40%;
+    margin-left: 30%;
+    float: right;
+}
+
+
+.raccoon{
+-webkit-animation-delay: -6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 9s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -6s;
+    animation: appear 9s forwards;   
+}
+
+@-webkit-keyframes appearla {
+    0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appearla {
+   0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+.beaver {
+    position:absolute;
+    top:40%;
+    margin-left: 30%;
+    float: right;
+}
+
+
+.beaver{
+-webkit-animation-delay: -6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appearla 9s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -6s;
+    animation: appear 9s forwards;   
+}
+
+@-webkit-keyframes appearla {
+    0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appearla {
+   0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.5; visibility: visible}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+.menu {
+    position:absolute;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 10px;
+    color: black;
+    letter-spacing: 2px;
+    top: 50%;
+    left: 3.9%;
+    
+}
+
+.menu {
+-webkit-animation-delay: -5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: appear 8s forwards; /* Safari 4.0 - 8.0 */
+    animation-delay: -5s;
+    animation: appear 8s forwards;   
+}
+
+@-webkit-keyframes appear {
+    0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.0; visibility: hidden}
+    90% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+@keyframes appear {
+   0% {opacity: 0.0; visibility: hidden}
+    50% {opacity: 0.0; visibility: hidden}
+    90% {opacity: 0.0; visibility: hidden}
+    100% {opacity: 1.0; visibility: visible}
+}
+
+
+a:hover {
+    color: red
+}
+
+a:link {
+  text-decoration: none;
+    color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+}
